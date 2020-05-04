@@ -14,3 +14,4 @@ This application prompts the user to search by Film ID, Keyword, or to exit the 
 I read through the notes and conceptually understood how to connect the Java application to the database. The queries were simple, using Join statements to connect from various tables in the database. Once I figured out how to connect to the database and entering the correct statements, the task of not duplicating information took awhile. I created separate methods in order to accomplish that task.
 
 ## Video Explanation
+Coming Soon
