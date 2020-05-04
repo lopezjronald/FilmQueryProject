@@ -19,7 +19,7 @@ public class FilmQueryApp {
         	menuChoice = input.nextLine();
             
             if (menuChoice.equals("1")) {
-            	System.out.println("Please enter the film ID number");
+            	System.out.print("Please enter the film ID number: ");
             	String filmId = input.nextLine();
             	film.showFilmInfoByFilmId(filmId);
             } else if (menuChoice.equals("2")) {
@@ -34,6 +34,6 @@ public class FilmQueryApp {
             	continue;
             }
         } 		
-	}
+}
 
 }
