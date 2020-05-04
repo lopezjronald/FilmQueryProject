@@ -21,11 +21,11 @@ public class FilmQueryMain {
             if (menuChoice.equals("1")) {
             	System.out.println("Please enter the film ID number");
             	String filmId = input.nextLine();
-            	film.showFilmInfoUsingID(filmId);
+            	film.showFilmInfoByFilmId(filmId);
             } else if (menuChoice.equals("2")) {
             	System.out.print("Please enter your keyword: ");
             	String keyword = input.nextLine();
-            	film.showFilmInfoUsingKeyword(keyword);
+            	film.searchByKeyword(keyword);
             } else if (menuChoice.equals("3")) {
             	System.out.println("Have a wonderful day. Good-bye.");
             	break;    	
